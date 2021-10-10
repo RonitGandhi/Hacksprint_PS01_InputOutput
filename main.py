@@ -106,7 +106,7 @@ def insertintotable():
             model = load_model('static/Binance.h5')
             data = [7396, 6950, 2294]
         if quote=="ADA-USD":
-            model = load_model('static/USD.h5')
+            model = load_model('static/Cardano.h5')
             data = [1709, 13031, 2983]
         if quote=="USDT-USD":
             model = load_model('static/Tether.h5')
@@ -121,7 +121,7 @@ def insertintotable():
             model = load_model('static/Polkadot.h5')
             data = [3468, 994, 6827]
         if quote=="USDC-USD":
-            model = load_model('static/Cardano.h5')
+            model = load_model('static/USD.h5')
             data = [1040, 1409, 3531]
         if quote=="DOGE-USD":
             model = load_model('static/Dogecoin.h5')
