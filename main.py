@@ -107,10 +107,10 @@ def insertintotable():
             data = [7396, 6950, 2294]
         if quote=="ADA-USD":
             model = load_model('static/USD.h5')
-            data = [1709, 13031, 7387]
+            data = [1709, 13031, 2983]
         if quote=="USDT-USD":
             model = load_model('static/Tether.h5')
-            data = [1709, 13031, 7387]
+            data = [5471, 794, 10912]
         if quote=="XRP-USD":
             model = load_model('static/XRP.h5')
             data = [5348, 2991, 9330]
@@ -122,7 +122,7 @@ def insertintotable():
             data = [3468, 994, 6827]
         if quote=="USDC-USD":
             model = load_model('static/Cardano.h5')
-            data = [1709, 13031, 7387]
+            data = [1040, 1409, 3531]
         if quote=="DOGE-USD":
             model = load_model('static/Dogecoin.h5')
             data = [6602, 1171, 9269]
@@ -174,9 +174,8 @@ def insertintotable():
         plt.savefig('static/LSTM.png')
         plt.close(fig2)
 
-        sentiment = ['Positive', 'Neutral', 'Negative']
+        sentiment = ['Positive', 'Negative', 'Neutral']
   
-        data = [6404, 6296, 5193]
         wp = { 'linewidth' : 1, 'edgecolor' : "green" }
         # # Creating plot
         def func(pct, allvalues):
